@@ -1,0 +1,13 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "andri"]
+	url = https://github.com/Andricela/background-generator.git
+	fetch = +refs/heads/*:refs/remotes/andri/*
+[branch "master"]
+	remote = andri
+	merge = refs/heads/master
